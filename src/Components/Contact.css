@@ -1,0 +1,133 @@
+.contact{
+    margin-top: 25vh;
+
+}
+
+.cont input{
+  background-color: rgb(26, 25, 25);
+  color: #fcf5f5e0;
+  font-weight: 100;
+  border: none;
+
+
+}
+
+.cont .bt{
+  margin-top: 10px;
+  padding: 2px 15px !important;
+  transition: 0.5s ease;
+  border-radius: 4px !important;
+
+}
+
+.cont .bt:hover{
+  background-color:#ff8000c0 !important;
+
+}
+
+
+.cont input:focus{
+  background-color: rgb(26, 25, 25);
+  box-shadow: none;
+  color: #fcf5f5e0;
+  font-weight: 100;
+  
+
+
+}
+.cont textarea{
+  background-color: rgb(26, 25, 25);
+  border: none;
+  color: #fcf5f5e0;
+  font-weight: 100;
+
+
+}
+
+.cont textarea:focus{
+  background-color: rgb(26, 25, 25);
+ box-shadow: none;
+ color: #fcf5f5e0;
+ font-weight: 100;
+
+}
+
+a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; }
+    a, a:hover {
+      text-decoration: none !important; }
+  
+  .text-black {
+    color: #000; }
+  
+  .content {
+    padding: 7rem 0; }
+  
+  h2 {
+    font-size: 3.5rem;
+    font-weight: 700; }
+  
+  h3 {
+    font-size: 2rem;
+    font-weight: 700; }
+  
+  .form-control {
+    border: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 0; }
+    .form-control:active, .form-control:focus {
+      outline: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      border-color: #000; }
+  
+  .col-form-label {
+    color: #fcf5f5; }
+  
+  .btn, .form-control {
+    height: 55px; }
+  
+  .btn:active, .btn:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+  
+  label.error {
+    font-size: 12px;
+    color: red; }
+  
+  #message {
+    resize: vertical; }
+  
+  #form-message-warning, #form-message-success {
+    display: none; }
+  
+  #form-message-warning {
+    color: #B90B0B; }
+  
+  #form-message-success {
+    color: #55A44E;
+    font-size: 18px;
+    font-weight: bold; }
+  
+  .submitting {
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    display: none;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000; }
+  
+
+    
+
+    @media only screen and (max-width: 1280px) {
+      .contact{
+        font-size:25px;
+      }
+    }
+
+

@@ -1,0 +1,133 @@
+.proj{
+    margin-top: 25vh;
+
+}
+
+/* Ensure all cards have equal width and height */
+.card {
+
+  width: 100% !important; 
+  height: 280px !important; /* Adjust the height as needed */
+  border: none !important;
+  border-radius: 20px !important ;
+  box-shadow: 4px 3px 12px rgb(0, 0, 0);
+  overflow: hidden;
+  background-color: black !important;
+  
+}
+
+
+/* Style the image to cover the entire card */
+.card .card-img {
+
+  position: absolute !important;
+  width: 100% !important;
+  height: 100% !important;
+  
+
+  object-fit: cover !important;
+  transition: 0.5s ease;
+  
+}
+
+.card-img:hover{
+  transform: scale(1.1);
+}
+
+
+.card .card-text{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.938); /* Semi-transparent black background */
+  color: rgb(180, 180, 180); /* Text color */
+  text-align: center;
+  padding: 10px; /* Padding for better readability */
+  margin: 0; /* Remove default margin */
+  box-sizing: border-box;
+  
+}
+
+
+
+
+.card .card-text:hover{
+
+  color: rgb(134, 134, 134); /* Text color */
+}
+
+  
+
+  @media only screen and (max-width: 1280px) {
+    
+  .proj{
+    font-size: 25px;
+  }
+
+
+  .card {
+
+ 
+    height: 250px !important; 
+  }
+
+  .card-text {
+   font-size: 12px;
+   
+  }
+
+
+  }
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 991px) {
+
+    .proj{
+      margin-top: 32vh;
+  
+  }
+
+
+  .card {
+
+ 
+    height: 230px !important; 
+  }
+
+  .card-text {
+   font-size: 10px;
+   
+  }
+
+
+
+  @media only screen and (max-width: 767px) {
+
+    .proj{
+      margin-top: 35vh;
+  
+  }
+
+
+  .card {
+
+ 
+    height: 230px !important;
+  
+  }
+
+  
+
+
+  
+
+  }
+
+
+  }

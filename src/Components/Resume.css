@@ -1,0 +1,117 @@
+.Resume{
+    margin-top: 25vh;
+}
+
+.Resume h5{
+    font-size: 14px;
+}
+
+.q-mark{
+    width: 400px;
+}
+
+.skills{
+    margin-top: 15%;
+}
+
+.custom-size {
+    font-size: 36px; 
+ 
+  }
+  
+ .skill-item{
+    transition: 0.5s ease;
+ } 
+
+
+  
+.skill-item1:hover{
+    color:#ff7f00;
+    cursor: pointer;
+} 
+ 
+
+.skill-item2:hover{
+    color:#1572B6 ;
+    cursor: pointer;
+} 
+ 
+
+  
+.skill-item3:hover{
+    color:#F7DF1E  ;
+    cursor: pointer;
+} 
+ 
+.skill-item4:hover{
+    color:#512BD4  ;
+    cursor: pointer;
+} 
+ 
+.skill-item5:hover{
+    color:#61DAFB  ;
+    cursor: pointer;
+} 
+ 
+.skill-item6:hover{
+    color:#777BB4 ;
+    cursor: pointer;
+} 
+ 
+.skill-item7:hover{
+    color:#CC2927 ;
+    cursor: pointer;
+} 
+
+.skill-item8:hover{
+    color:#00a6f3 ;
+    cursor: pointer;
+} 
+ 
+ 
+
+.education{
+    margin-top: 10vh;
+}
+
+
+@media only screen and (max-width:1280px){
+
+    .q-mark{
+        width: 350px;
+    
+
+    }
+
+    .custom-size{
+        font-size: 28px;
+    }
+}
+
+
+
+@media only screen and (max-width:991px){
+
+    .q-mark{
+        width: 300px;
+        margin-left: 5%;
+
+    }
+
+    .custom-size{
+        font-size: 26px;
+    }
+}
+
+
+@media only screen and (max-width:355px){
+    .q-mark{
+        width: 250px;
+        margin-left: 5%;
+
+    }
+   
+
+ 
+
+}
